@@ -161,15 +161,15 @@ public void dash(){
 
   public void ifLTrigger(){
     if (LTrigger> 0.04) {
-      rapidao = LTrigger * m_speed;
-      rapidao2 = LTrigger * m_speed;
+      rapidao = -LTrigger * m_speed;
+      rapidao2 = -LTrigger * m_speed;
     } 
   }
 
   public void ifRTrigger(){
     if (RTrigger > 0.04){ 
-      rapidao = -RTrigger * m_speed;
-      rapidao2 = -RTrigger * m_speed;
+      rapidao = RTrigger * m_speed;
+      rapidao2 = RTrigger * m_speed;
     }
   }
    public void quadrantes(){
